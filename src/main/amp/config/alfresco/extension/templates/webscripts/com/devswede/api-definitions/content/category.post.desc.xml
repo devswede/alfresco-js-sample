@@ -1,0 +1,17 @@
+<webscript>
+    <shortname><![CDATA[<h1>Add Category to existing content node</h1>]]></shortname>
+    <description><![CDATA[
+    <b>Adds a category to existing content node.</b>
+    <p>Sample:</br>
+    <pre>{
+  "contentId": "2835cf23-6b0b-46a1-8d42-05b859595c7c",
+  "categoryId": "a3453b4d-4e32-a331-3452-34da2231e872",
+}</pre></p>
+    ]]></description>
+    <url>/devswede/content/category</url>
+    <!-- Set json as default format -->
+    <format default="json">argument</format>
+    <authentication>user</authentication>
+    <transaction>requiresnew</transaction>
+    <family>DevSwede Samples</family>
+</webscript>
